@@ -1,0 +1,73 @@
+---
+booktitle: "Proceedings of the 2023 Causal Analysis Workshop\r Series"
+shortname: CAWS
+volume: '223'
+year: '2023'
+start: 2023-08-14
+end: 2023-08-14
+published: 2023-11-20
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: CAWS2023
+month: 0
+cycles: false
+bibtex_editor: Kummerfeld, Erich and Ma, Sisi and Rawls, Eric and Andrews, Bryan
+editor:
+- given: Erich
+  family: Kummerfeld
+- given: Sisi
+  family: Ma
+- given: Eric
+  family: Rawls
+- given: Bryan
+  family: Andrews
+title: Proceedings of Machine Learning Research
+description: "Proceedings of the 2023 Causal Analysis Workshop\r Series\n  Held in
+  Virtual on 14 August 2023\n\nPublished as Volume 223 by the Proceedings of Machine
+  Learning Research on 20 November 2023.\n\nVolume Edited by:\n  Erich Kummerfeld\n
+  \ Sisi Ma\n  Eric Rawls\n  Bryan Andrews\n\nSeries Editors:\n  Neil D. Lawrence\n"
+date_str: 14 Aug
+url: https://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v223"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v223
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v223
+email: ''
+conference:
+  name: Causal Analysis Workshop Series
+  url: https://cawsnetwork.com/caws-2023-call-for-papers/
+  location: Virtual
+  dates:
+  - 2023-08-14
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+orig_bibfile: "/Users/neil/mlresearch/v223/CAWS2023.bib"
+# Site settings
+# Original source:  /Users/neil/mlresearch/v223/CAWS2023.bib

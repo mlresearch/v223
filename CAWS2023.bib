@@ -1,0 +1,152 @@
+% if the proceedings is a reissued proceedings, please add the field 
+% 'firstpublished' to the entry below, giving the original data of 
+% publication in YYYY-MM-DD format.
+
+@Proceedings{CAWS2023,
+  booktitle =	 {Proceedings of the 2023 Causal Analysis Workshop
+                  Series},
+  name =	 {Causal Analysis Workshop Series},
+  shortname =	 {CAWS},
+  editor =	 {Erich Kummerfeld and Sisi Ma and Eric Rawls and
+                  Bryan Andrews},
+  volume =	 223,
+  year =	 2023,
+  start =	 {2023-08-14},
+  end =		 {2023-08-14},
+  published =	 {2023-11-20},
+  conference_url ={https://cawsnetwork.com/caws-2023-call-for-papers/},
+  address =	 {Virtual}
+}
+
+@InProceedings{jiang23,
+  title =	 {Linkages among the Foreign Exchange, Stock, and Bond
+                  Markets in Japan and the United States},
+  author =	 {Jiang, Yi and Shimizu, Shohei},
+  pages =	 {1-19},
+  abstract =	 {While economic theory explains the linkages among
+                  the financial markets of different countries,
+                  empirical studies mainly verify the linkages through
+                  Granger causality, without considering latent
+                  variables or instantaneous effects. Their findings
+                  are inconsistent regarding the existence of causal
+                  linkages among financial markets, which might be
+                  attributed to differences in the focused markets,
+                  data periods, and methods applied. Our study adopts
+                  causal discovery methods including VAR-LiNGAM and
+                  LPCMCI with domain knowledge to explore the linkages
+                  among financial markets in Japan and the United
+                  States (US) for the post Covid-19 pandemic period
+                  under divergent monetary policy directions. The
+                  VAR-LiNGAM results reveal that the previous day’s US
+                  market influences the following day’s Japanese
+                  market for both stocks and bonds, and the bond
+                  markets of the previous day impact the following
+                  day’s foreign exchange (FX) market directly and the
+                  following day’s Japanese stock market
+                  indirectly. The LPCMCI results indicate the
+                  existence of potential latent confounders. Our
+                  results demonstrate that VAR-LiNGAM uniquely
+                  identifies the directed acyclic graph (DAG), and
+                  thus provides informative insight into the causal
+                  relationship when the assumptions are considered
+                  valid. Our study contributes to a better
+                  understanding of the linkages among financial
+                  markets in the analyzed data period by supporting
+                  the existence of linkages between Japan and the US
+                  for the same financial markets and among FX, stock,
+                  and bond markets, thus highlighting the importance
+                  of leveraging causal discovery methods in the
+                  financial domain.}
+}
+
+@InProceedings{kikuchi23,
+  title =	 {Structure Learning for Groups of Variables in
+                  Nonlinear Time-Series Data with
+                  Location-Scale Noise},
+  author =	 {Kikuchi, Genta and Shimizu, Shohei},
+  pages =	 {20-39},
+  abstract =	 {Learning causal structures from observational data
+                  has recently attracted considerable
+                  attention.Although many studies have focused on
+                  uncovering the connections between scalar random
+                  variables,estimation algorithms for groups of
+                  variables---particularly for multiple groups of
+                  variables---remain scarce.This paper proposes a
+                  novel differentiable algebraic constraint that can
+                  be used along with existing continuous
+                  optimization-based structure-learning algorithms to
+                  learn the causal relationships among groups of
+                  variables.Considering the complex functional
+                  relationships among variables in real-world
+                  scenarios, we propose a structure-learning algorithm
+                  for nonlinear time-series data with location-scale
+                  noise.Experimental results for synthetic and
+                  real-world data indicate that the proposed group
+                  acyclicity constraint significantly increases the
+                  estimation accuracy for the causal relationship
+                  among the groups of variables and verify the
+                  effectiveness of the proposed structure-learning
+                  algorithm.}
+}
+
+@InProceedings{ramsey23,
+  title =	 {Py-Tetrad and RPy-Tetrad: A New Python Interface
+                  with R Support for Tetrad Causal Search},
+  author =	 {Ramsey, Joseph and Andrews, Bryan},
+  pages =	 {40-51},
+  abstract =	 {We give novel Python and R interfaces for the (Java)
+                  Tetrad project for causal modeling, search, and
+                  estimation. The Tetrad project is a mainstay in the
+                  literature, having been under consistent development
+                  for over 30 years. Some of its algorithms are now
+                  classics, like PC and FCI; others are recent
+                  developments. It is increasingly the case, however,
+                  that researchers need to access the underlying Java
+                  code from Python or R. Existing methods for doing
+                  this are inadequate. We provide new, up-to-date
+                  methods using the JPype Python-Java interface and
+                  the Reticulate Python-R interface, directly solving
+                  these issues. With the addition of some simple tools
+                  and the provision of working examples for both
+                  Python and R, using JPype and Reticulate to
+                  interface Python and R with Tetrad is
+                  straightforward and intuitive.}
+}
+
+@InProceedings{rawls23,
+  title =	 {A Computational Framework for EEG Causal Oscillatory
+                  Connectivity},
+  author =	 {Rawls, Eric and Gilmore, Casey and Kummerfeld, Erich
+                  and Lim, Kelvin and Nienow, Tasha},
+  pages =	 {40-51},
+  abstract =	 {Here we advance a new approach for measuring EEG
+                  causal oscillatory connectivity, capitalizing on
+                  recent advances in causal discovery analysis for
+                  skewed time series data and in spectral
+                  parameterization of time-frequency (TF) data. We
+                  first parameterize EEG TF data into separate
+                  oscillatory and aperiodic components. We then
+                  measure causal interactions between separated
+                  oscillatory data with the recently proposed causal
+                  connectivity method Greedy Adjacencies and
+                  Non-Gaussian Orientations (GANGO). We apply GANGO to
+                  contemporaneous time series, then we extend the
+                  GANGO method to lagged data that control for
+                  temporal autocorrelation. We apply this approach to
+                  EEG data acquired in the context of a clinical trial
+                  investigating noninvasive transcranial direct
+                  current stimulation to treat executive dysfunction
+                  following mild Traumatic Brain Injury (mTBI). First,
+                  we analyze whole-scalp oscillatory connectivity
+                  patterns using community detection. Then we
+                  demonstrate that tDCS increases the effect size of
+                  causal theta-band oscillatory connections between
+                  prefrontal sensors and the rest of the scalp, while
+                  simultaneously decreasing causal alpha-band
+                  oscillatory connections between prefrontal sensors
+                  and the rest of the scalp. Improved executive
+                  functioning following tDCS could result from
+                  increased prefrontal causal theta oscillatory
+                  influence, and decreased prefrontal alpha-band
+                  causal oscillatory influence.}
+}
